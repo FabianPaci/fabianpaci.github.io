@@ -4,29 +4,24 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-  // Add smooth scrolling to all links
   $("a").on('click', function(event) {
 
-    // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
-      // Prevent default anchor click behavior
       event.preventDefault();
 
-      // Store hash
       var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
         scrollTop: $(hash).offset().top
       }, 800, function(){
    
-        // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
-    } // End if
+    } 
   });
 });
+</script>
+<script>
+  
 </script>
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
     <title>Fabian Paci</title>
@@ -47,7 +42,12 @@ $(document).ready(function(){
         <h1>
           <strong>Fabian Paci</strong>, <br />
           14 year old backend developer. <br />
-          PERN stack</a>
+          <a class="ui-tooltip" title="
+          • Postgresql
+          • Express js 
+          • React js
+          • Node.js"><span style="cursor: help;">PERN stack</span></a>
+</a>
         </h1>
       </div>
     </header>
@@ -153,23 +153,23 @@ h1 {
 
 .row,
 .row > .column {
-  padding: 8px;
+  padding: 40px;
 }
 
 .column {
   float: left;
-  width: 25%;
+  width: 30%;
 }
 
 .row:after {
-  content: "";
+  content: " ";
   display: table;
   clear: both;
 }
 
 .content {
   background-color: white;
-  padding: 10px;
+  padding: 20px;
 }
 
 @media screen and (max-width: 900px) {
@@ -257,8 +257,8 @@ h1 {
           </li>
         </ul>
         <ul class="copyright">
-          <li>Email: <a>fabianpaci@gmail.com
-
+          <li>Email: <a href="mailto:fabianpaci@gmail.com">
+            Email me!
 					</a></li>
 					<!-- <li>Phone: <a>0434785043
 						
