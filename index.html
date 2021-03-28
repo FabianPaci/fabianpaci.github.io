@@ -126,70 +126,15 @@ $(document).ready(function(){
         </header>
         <p>
           <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
 
-body {
-  background-color: #f1f1f1;
-  padding: 20px;
-  font-family: Arial;
-}
-
-.main {
-  max-width: 1000px;
-  margin: auto;
-}
-
-h1 {
-  font-size: 50px;
-  word-break: break-all;
-}
-
-.row {
-  margin: 8px -16px;
-}
-
-.row,
-.row > .column {
-  padding: 40px;
-}
-
-.column {
-  float: left;
-  width: 30%;
-}
-
-.row:after {
-  content: " ";
-  display: table;
-  clear: both;
-}
-
-.content {
-  background-color: white;
-  padding: 20px;
-}
-
-@media screen and (max-width: 900px) {
-  .column {
-    width: 50%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
-</style>
+          <link rel="stylesheet" href="assets/css/skills.css">
 </head>
 <body>
 
-<div class="main">
-<hr>
+  <hr>
+  <div class="main">
 
+<div class="skill">
 <div class="row">
   <div class="column">
     <div class="content">
@@ -231,9 +176,63 @@ h1 {
      <br />
 </div>
 
+
+</div>
+<div>
+  <link rel="stylesheet" href="assets/css/skillsBar.css">
+  <body>
+    <div class="skill-bars">
+      <div class="bar">
+        <div class="info">
+          <span>JavaScript</span>
+        </div>
+        <div class="progress-line html">
+          <span></span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <span>Node.js</span>
+        </div>
+        <div class="progress-line css">
+          <span></span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <span>Express</span>
+        </div>
+        <div class="progress-line jquery">
+          <span></span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <span>SQL</span>
+        </div>
+        <div class="progress-line python">
+          <span></span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <span>PostgreSQL</span>
+        </div>
+        <div class="progress-line mysql">
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+  </body>
 </div>
 
         </p>
+        <ul class="actions">
+          <li><a href="#two" class="buttosn"></a></li>
+        </ul>
+      </section>
+      
         <ul class="actions">
           <li><a href="#two" class="button">Learn More</a></li>
         </ul>
