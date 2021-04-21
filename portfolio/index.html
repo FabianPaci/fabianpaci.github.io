@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+</script>
+<script>
+  
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+    <title>Fabian Paci</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+
+    <header id="header">
+      <div class="inner">
+        <a class="image avatar"
+          ><img src="images/avatar.jpg" alt=""
+        /></a>
+        <h1>
+          <strong>Fabian Paci</strong>, <br />
+          14 year old backend developer. <br />
+          <a class="ui-tooltip" title="
+          • Postgresql
+          • Express js 
+          • React js
+          • Node.js"><span style="cursor: help;">PERN stack</span></a>
+</a>
+        </h1>
+      </div>
+    </header>
+
+    <div id="main">
+      <section id="one">
+        <header class="major">
+          <h2>
+            Development<br />
+          </h2>
+        </header>
+        <p>
+          some projects
+        </p>
+        <ul class="actions">
+          <li><a href="#two" class="button">Learn More</a></li>
+        </ul>
+      </section>
+
+      <section id="two">
+        <h2>Recent Work (all using <a href="https://nodejs.org/en/"> Node js</a>)</h2>
+        <div class="row">
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/01.jpg" class="image fit thumb" >
+               <img src="images/thumbs/01.jpg" alt=""
+            /></a>
+            <h3>Live chat app</h3>
+            <p>Live chat app using web sockets, express crud API</p>
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/02.jpg" class="image fit thumb"
+              ><img src="images/thumbs/02.jpg" alt=""
+            /></a>
+            <h3>CLI utils</h3>
+            <p>more features for windows command prompt using vorpal</p>
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/03.jpg" class="image fit thumb"
+              ><img src="images/thumbs/03.jpg" alt=""
+            /></a>
+            <h3>tax calculator</h3>
+            <p>Australian tax calculator using a custom cli made by me</p>
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/04.jpg" class="image fit thumb"
+              ><img src="images/thumbs/04.jpg" alt=""
+            /></a>
+            <h3>Portfolio Website</h3>
+            <p>Made using HTML, CSS, JavaScript, Sass</p>
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/05.jpg" class="image fit thumb"
+              ><img src="images/thumbs/05.jpg" alt=""
+            /></a>
+            <h3>project</h3>
+            <p>project desc.</p>
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/06.jpg" class="image fit thumb"
+              ><img src="images/thumbs/06.jpg" alt=""
+            /></a>
+            <h3>project</h3>
+            <p>project desc.</p>
+          </article>
+        </div>
+        <ul class="actions">
+          <li><a href="#one" class="button">Full Portfolio</a></li>
+        </ul>
+      </section> 
+
+      <section id="three">
+        <header class="major">
+          <h2>
+            Skills<br />
+          </h2>
+        </header>
+        <p>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+
+          <link rel="stylesheet" href="assets/css/skills.css">
+</head>
+<body>
+
+  <hr>
+  <div class="main">
+
+<div class="skill">
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <h3>Front End   <i class="fas fa-code"></i></h3>
+      • Basic HTML
+      <br>• Basic CSS <br />
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="content">
+      <h3>Back End    <i class="fas fa-terminal"></i></i></h3>
+      • Networking 
+    <br>• Authentication  
+    <br>• Database
+    <br>• API
+     <br>• Node js
+     <br>• Express js 
+     <br>• Cloud 
+     <br>• Server
+     <br />
+      
+    </div>
+
+
+
+  
+  </div>
+  <div class="column">
+<div class="content">
+  <h3>other   <i class="fas fa-folder-open"></i></h3>
+  • Git/Github 
+    <br>• Visual studio code
+    <br>• Dev tools
+     <br>• Linux
+     <br>• Shell
+     <br>• C# 
+     <br>• Terminal
+     <br />
+</div>
+
+
+</div>
+<div>
+  <link rel="stylesheet" href="assets/css/skillsBar.css">
+  <body>
+    <div class="skill-bars">
+      <div class="bar">
+        <div class="info">
+          <span>JavaScript</span>
+        </div>
+        <div class="progress-line html">
+          <span></span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <span>Node.js</span>
+        </div>
+        <div class="progress-line css">
+          <span></span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <span>Express</span>
+        </div>
+        <div class="progress-line jquery">
+          <span></span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <span>SQL</span>
+        </div>
+        <div class="progress-line python">
+          <span></span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <span>PostgreSQL</span>
+        </div>
+        <div class="progress-line mysql">
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</div>
+
+        </p>
+        <ul class="actions">
+          <li><a href="#two" class="buttosn"></a></li>
+        </ul>
+      </section>
+      
+        <ul class="actions">
+          <li><a href="#two" class="button">Learn More</a></li>
+        </ul>
+      </section>
+      
+
+		</div>
+
+    <footer id="footer">
+      <div class="inner">
+        <ul class="icons">
+          <li>
+            <a href="https://twitter.com/fabiantweetr" class="icon brands fa-twitter"
+              ><span class="label">Twitter</span></a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/fabianpaci" class="icon brands fa-github"
+              ><span class="label">Github</span></a
+            >
+          </li>
+        </ul>
+        <ul class="copyright">
+          <li>Email: <a href="mailto:fabianpaci@gmail.com">
+            Email me!
+					</a></li>
+					<!-- <li>Phone: <a>0434785043
+						
+					</a></li> -->
+					<!-- <li><a href="tel:0434-785-043"> <a>0434 785 043</a></a></li> -->
+        </ul>
+        <!-- <dir></dir> -->
+      </div>
+    </footer>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.poptrox.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
